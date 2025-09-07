@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://taskmanager-backend-gv7s.onrender.com", // change to Render URL after deploy
+  baseURL: "https://taskmanager-backend-gv7s.onrender.com/api", // change to Render URL after deploy
 });
 
 // Add token automatically if exists
