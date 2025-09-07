@@ -1,17 +1,21 @@
-## Running React on Replit
+A full-stack task management application built with the MERN stack (MongoDB, Express.js, React, Node.js). The app allows users to create, update, delete, and manage tasks efficiently with authentication and a responsive UI.
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+💻 Tech Stack:
+Frontend: React, Axios, CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+Authentication: JWT
+Deployment: frontend:- Netlify (https://taskfrontend11.netlify.app/
+), backend:- Render (https://taskmanager-backend-gv7s.onrender.com/
+)
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+🚀 Features
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+🔐 User authentication (Register/Login with JWT)
+➕ Add new tasks
+✏️ Edit and update tasks
+✅ Mark tasks as complete
+🗑️ Delete tasks
+📱 Fully responsive UI
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
